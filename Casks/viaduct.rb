@@ -8,7 +8,7 @@ cask "viaduct" do
   desc "File converter app"
   homepage "https://github.com/magicelk235/viaduct-app"
 
-  depends_on macos: ":ventura"
+  depends_on macos: ">= :ventura"
 
   app "Viaduct.app"
 
